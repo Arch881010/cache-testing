@@ -6,7 +6,7 @@ try { //Forces a check.
     cache.get("a"); 
     throw new ReferenceError
 } catch(err) {
-    console.log("A has been seleted"); // This should work.
+    console.log("A has been retrieved"); // This should work.
 }
 cache.add("c","d");
 cache.clear();
